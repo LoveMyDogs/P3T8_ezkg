@@ -1,0 +1,30 @@
+{% extends "layouts/project.html" %}
+{% set project = "ProjectBase" %}
+
+<!- This variable sets name of browser tab  -->
+{% set project = "Groupwork Base" %}
+
+<!- This is a replacement block for Body in base.html -->
+{% block body %}
+    <!- Try building a new body here, bootstrap is a wise choice ->
+    <div class="px-5 py-5 mx-auto">
+        <h1 class="text-primary"><strong>Our Group Project Template</strong></h1>
+        <p class="text-secondary">Our goal in this collaboration is to make a website with a variety of premises, focused on helping others with student life</p>
+        <h3 class="text-primary"> Math </h3>
+        <img src="{{ url_for('static', filename='assets/math.png') }}" alt="Math" height="250">
+        <p class="text-secondary"> Here we will focus on higher level subjects (AP Calculus and AP Statistics), holding within it a calculator for both of them (if possible with our future capabilities), as well as definitions of terms inside of these subjects.</p>
+        <p class="text-secondary">Our last objective for this section will be to create quizzes on important parts of these subjects, with a user friendly format that will teach them how to get the right answer if they get something wrong.</p>
+        <p class="text-primary">The knowledge for this will largely be supplied by Giannina and Keira, with Ellie and Zeen doing their base roles in building it</p>
+        <h3 class="text-primary"> Physics</h3>
+        <img src="{{ url_for('static', filename='assets/physics.png') }}" alt="Physics" height="250">
+        <p class="text-seconday">The same general plan as the math section, filled with quizzes, defining terms, and calculators for base physics equations </p>
+        <p class="text-primary">This section's knowledge will also largely be supplied by Keira and Giannina, planning out the calculator and defining terms, while Ellie and Zeen fulfill their roles</p>
+        <h3 class="text-primary">Volleyball</h3>
+        <img src="{{ url_for('static', filename='assets/Volleyball.png') }}" alt="Volleyball" height="250">
+        <p class="text-secondary">This section will explain volleyball terms and strategies, with a large visual element</p>
+        <p class="text-primary">Knowledge will be supplied by Ellie, with everyone else doing their base role</p>
+    </div>
+{% endblock %}
+
+{% block background %}
+{% endblock %}
