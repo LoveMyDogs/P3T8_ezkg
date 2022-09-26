@@ -21,6 +21,14 @@ def index():
 def stub():
     return render_template("stub.html")
 
+@app.route('/groupwork/')  # connects default URL to index() function
+def groupwork():
+    return render_template("groupwork.html")
+
+@app.route('/notebook_groupwork/')  # connects /notebook_groupwork/ URL to stub() function
+def notebook_groupwork():
+    return render_template("notebook_groupwork.html")
+
 # this runs the application on the development server
 if __name__ == "__main__":
     app.run(debug=True)
