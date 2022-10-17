@@ -1,0 +1,22 @@
+<!-- Extending the predefined project layout -->
+{% extends "layouts/base.html" %}
+
+<!- This variable sets name of browser tab  -->
+{% set project = "ExplanationsLinker" %}
+
+<!- This is a replacement block for Body in base.html -->
+{% block body %}
+    <div class="px-5 py-5 mx-auto">
+        <h1 class="text-primary"><strong>Topics</strong></h1>
+        <h2>AP Calculus</h2>
+        <p class="text-secondary"><a href="http://127.0.0.1:5000/power_rule/">Power Rule</a></p>
+        <p class="text-secondary"><a href="http://127.0.0.1:5000/chain_rule/">Chain Rule</a></p>
+        <h2>AP Statistics</h2>
+        <p class="text-secondary"><a href="addlinkhere">Not Done Yet</a></p>
+        <h2>AP Physics</h2>
+        <p class="text-secondary"><a href="addlinkhere">Projectile Motion (Not Done Yet)</a></p>
+        <p class="text-secondary"><a href="http://127.0.0.1:5000/significant_figures/">Significant Figures</a></p>
+{% endblock %}
+
+{% block background %}
+{% endblock %}

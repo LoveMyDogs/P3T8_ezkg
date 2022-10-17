@@ -29,6 +29,22 @@ def groupwork():
 def notebook_groupwork():
     return render_template("notebook_groupwork.html")
 
+@app.route('/explanations/')  # connects /explanations/ URL to stub() function
+def explanations():
+    return render_template("explanations.html")
+
+@app.route('/chain_rule/')  # connects /chain_rule/ URL to stub() function
+def chain_rule():
+    return render_template("chain_rule.html")
+
+@app.route('/power_rule/')  # connects /power_rule/ URL to stub() function
+def power_rule():
+    return render_template("power_rule.html")
+
+@app.route('/significant_figures/')  # connects /significant_figures/ URL to stub() function
+def significant_figures():
+    return render_template("significant_figures.html")
+
 # this runs the application on the development server
 if __name__ == "__main__":
     app.run(debug=True)

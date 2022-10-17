@@ -1,0 +1,25 @@
+<!-- Extending the predefined project layout -->
+{% extends "layouts/base.html" %}
+
+<!- This variable sets name of browser tab  -->
+{% set project = "Chain Rule" %}
+
+<!- This is a replacement block for Body in base.html -->
+{% block body %}
+    <!- Try building a new body here, bootstrap is a wise choice ->
+    <div class="px-5 py-5 mx-auto">
+        <h1 class="text-primary"><strong>Chain Rule</strong></h1>
+        <p>Our detested, working hard every day to make every problem just that tiniest bit harder (or, who am I kidding, way harder) in it's confounding nested ways, lets discuss this bringer of pain.</p>
+        <h2>What is chain rule?</h2>
+        <p>When you've got a function inside a function (f(g(x))), and you decide that you must take the derivative of it, chain rule is forced upon your soul, as it is the method used in these situations</p>
+        <h2>The Method</h2>
+        <p>The derivative of f(g(x)) is (f prime (g(x)) * g prime (x)), illustrated below, ADD IMAGE HERE</p>
+        <p>But did you think it ended there? No no, that's chain rule for those not tortured in life, what we will see is nested chain rule, which is just following the same process but ends up getting pretty confusing so there'll be several demonstrations below ADD IMAGE HERE</p>
+        <h2>Conclusion</h2>
+        <p>Yup, shackle rule, our one true friend, hope this got you back on track!</p>
+    </div>
+{% endblock %}
+
+<!- This is turning off birds background from base.html -->
+{% block background %}
+{% endblock %}
