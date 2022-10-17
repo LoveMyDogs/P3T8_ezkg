@@ -1,0 +1,20 @@
+<!-- Extending the predefined project layout -->
+{% extends "layouts/base.html" %}
+
+<!- This variable sets name of browser tab  -->
+{% set project = "Link to Post" %}
+
+<!- This is a replacement block for Body in base.html -->
+{% block body %}
+    <div class="px-5 py-5 mx-auto">
+        <h1 class="text-primary"><strong>Topics</strong></h1>
+        <h2>AP Calculus</h2>
+        <p class="text-secondary"><a href="addlinkhere">Power Rule</a></p>
+        <h2>AP Statistics</h2>
+        <p class="text-secondary"><a href="addlinkhere">I 'unno you tell me</a></p>
+        <h2>AP Physics</h2>
+        <p class="text-secondary"><a href="addlinkhere">Projectile Motion</a></p>
+{% endblock %}
+
+{% block background %}
+{% endblock %}

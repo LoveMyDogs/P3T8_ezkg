@@ -29,6 +29,10 @@ def groupwork():
 def notebook_groupwork():
     return render_template("notebook_groupwork.html")
 
+@app.route('/explanations/')  # connects /explanations/ URL to stub() function
+def explanations():
+    return render_template("explanations.html")
+
 # this runs the application on the development server
 if __name__ == "__main__":
     app.run(debug=True)
