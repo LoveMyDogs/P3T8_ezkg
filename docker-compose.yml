@@ -13,4 +13,4 @@ volumes:
     driver_opts:
       o: bind
       type: none
-      device: /home/ubuntu/flask_portfolio_team_cheese/volumes
+      device: /home/ubuntu/P3T8_ezkg/volumes
