@@ -72,11 +72,6 @@ if __name__ == "__main__":
     count = count_json['count']
 
 
-    # get count of jokes on server
-    count_response = requests.get(url+"/count")
-    count_json = count_response.json()
-    count = count_json['count']
-
     # update likes/dislikes test sequence
     num = str(random.randint(0, count-1)) # test a random record
     responses.append(
