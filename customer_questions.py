@@ -46,7 +46,7 @@ def getRandomQuestion():
 def favoriteQuestion():
     best = 0
     bestID = -1
-    for question in getQuestion():
+    for question in getQuestions():
         if question['yes'] > best:
             best = question['yes']
             bestID = question['no']
@@ -89,7 +89,7 @@ if __name__ == "__main__":
     print("Done best", best['yes'])
     printQuestion(best)
     worst = jeeredQuestion()
-    print("Where we did", worst['no'])
+    print("Where we did worst", worst['no'])
     printQuestion(worst)
     
     # Random question
