@@ -62,8 +62,8 @@ class CustomerAPI:
     
 if __name__ == "__main__": 
     # server = "http://127.0.0.1:5000" # run local
-    server = 'http://www.teamcheeseatimetime.tk/' # run from web
-    url = server + "api/customer/"
+    server = 'http://www.teamcheeseatimetime.tk' # run from web
+    url = server + "/api/customer"
     responses = []  # responses list
 
     # get count of jokes on server
