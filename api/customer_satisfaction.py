@@ -61,8 +61,13 @@ class CustomerAPI:
     api.add_resource(_UpdateNo, '/no/<int:id>')
     
 if __name__ == "__main__": 
+<<<<<<< HEAD:customer_satisfaction.py
     server = "http://127.0.0.1:5000" # run local
     # server = 'http://www.teamcheeseatimetime.tk/' # run from web
+=======
+    # server = "http://127.0.0.1:5000" # run local
+    server = 'http://www.teamcheeseatimetime.tk' # run from web
+>>>>>>> 06f974bf1422d41688ee1d00b31df3dde5b6d20d:api/customer_satisfaction.py
     url = server + "/api/customer"
     responses = []  # responses list
 
