@@ -1,16 +1,6 @@
 import random
 
-questions_data = [
-    "Was the website readable?",
-    "Were the explanations done well?",
-    "Did you feel that the website is well decorated and exciting?",
-    "Would you like an expansion to other sections or further explanations?",
-    "Were our quizzes satisfactory?",
-    "Are you suffering a lot in school right now?",
-    "Did you feel that there were enough questions, or too many questions in the quiz?",
-    "Would you have preferred a different reward for winning the quiz?",
-    "If we told you customer satisfaction was our highest goal, would you have believed us?",
-    'Do you think the website creators are cool?']
+questions_data = []
 questions_list = [
     "Was the website readable?",
     "Were the explanations done well?",
