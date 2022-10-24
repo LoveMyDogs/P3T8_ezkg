@@ -5,11 +5,11 @@ import random
 
 from model_jokes import *
 
-jokes_app_api = Blueprint('jokes', __name__,
+joke_api = Blueprint('joke_api', __name__,
                    url_prefix='/api/jokes')
 
 # API generator https://flask-restful.readthedocs.io/en/latest/api.html#id1
-jokes_api = Api(jokes_app_api)
+api = Api(joke_api)
 
 class JokesAPI:
     # not implemented
@@ -52,13 +52,13 @@ class JokesAPI:
             return jsonify(getJoke(id))
 
     # building RESTapi resources/interfaces, these routes are added to Web Server
-    jokes_api.add_resource(_Create, '/create/<string:joke>')
-    jokes_api.add_resource(_Read, '/')
-    jokes_api.add_resource(_ReadID, '/<int:id>')
-    jokes_api.add_resource(_ReadRandom, '/random')
-    jokes_api.add_resource(_ReadCount, '/count')
-    jokes_api.add_resource(_UpdateLike, '/like/<int:id>')
-    jokes_api.add_resource(_UpdateJeer, '/jeer/<int:id>')
+    api.add_resource(_Create, '/create/<string:joke>')
+    api.add_resource(_Read, '/')
+    api.add_resource(_ReadID, '/<int:id>')
+    api.add_resource(_ReadRandom, '/random')
+    api.add_resource(_ReadCount, '/count')
+    api.add_resource(_UpdateLike, '/like/<int:id>')
+    api.add_resource(_UpdateJeer, '/jeer/<int:id>')
     
 if __name__ == "__main__": 
     # server = "http://127.0.0.1:5000" # run local
