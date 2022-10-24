@@ -53,7 +53,7 @@ def favoriteQuestion():
     return questions_data[bestID]
     
 # Jeered question,  we are doing bad lmao ;)
-def jeeredQuestion():
+def worstQuestion():
     worst = 0
     worstID = -1
     for question in getQuestions():
@@ -88,7 +88,7 @@ if __name__ == "__main__":
     best = favoriteQuestion()
     print("Done best", best['yes'])
     printQuestion(best)
-    worst = jeeredQuestion()
+    worst = worstQuestion()
     print("Where we did", worst['no'])
     printQuestion(worst)
     
