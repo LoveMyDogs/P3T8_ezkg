@@ -5,11 +5,11 @@ import random
 
 from customer_questions import *
 
-app_api = Blueprint('api', __name__,
+cust_app_api = Blueprint('cust_api_bp', __name__,
                    url_prefix='/api/customer')
 
 # API generator https://flask-restful.readthedocs.io/en/latest/api.html#id1
-api = Api(app_api)
+cust_api = Api(cust_app_api)
 
 class CustomerAPI:
     # not implemented
@@ -17,7 +17,7 @@ class CustomerAPI:
         def post(self, question):
             pass
             
-    # getQuestions()
+       # getQuestions()
     class _Read(Resource):
         def get(self):
             return jsonify(getQuestions())
@@ -25,7 +25,7 @@ class CustomerAPI:
     # getQuestion(id)
     class _ReadID(Resource):
         def get(self, id):
-            return jsonify(getQuestions(id))
+            return jsonify(getQuestion(id))
 
     # getRandomQuestion()
     class _ReadRandom(Resource):
@@ -52,13 +52,13 @@ class CustomerAPI:
             return jsonify(getQuestion(id))
 
     # building RESTapi resources/interfaces, these routes are added to Web Server
-    api.add_resource(_Create, '/create/<string:question>')
-    api.add_resource(_Read, '/')
-    api.add_resource(_ReadID, '/<int:id>')
-    api.add_resource(_ReadRandom, '/random')
-    api.add_resource(_ReadCount, '/count')
-    api.add_resource(_UpdateLike, '/like/<int:id>')
-    api.add_resource(_UpdateNo, '/no/<int:id>')
+    cust_api.add_resource(_Create, '/create/<string:question>')
+    cust_api.add_resource(_Read, '/')
+    cust_api.add_resource(_ReadID, '/<int:id>')
+    cust_api.add_resource(_ReadRandom, '/random')
+    cust_api.add_resource(_ReadCount, '/count')
+    cust_api.add_resource(_UpdateLike, '/like/<int:id>')
+    cust_api.add_resource(_UpdateNo, '/no/<int:id>')
     
 if __name__ == "__main__": 
     # server = "http://127.0.0.1:5000" # run local
