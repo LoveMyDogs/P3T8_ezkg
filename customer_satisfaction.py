@@ -62,9 +62,15 @@ class CustomerAPI:
     
 if __name__ == "__main__": 
     # server = "http://127.0.0.1:5000" # run local
-    server = 'http://www.teamcheeseatimetime.tk' # run from web
+    server = 'https://www.teamcheeseatimetime.tk/' # run from web
     url = server + "/api/customer"
     responses = []  # responses list
+
+    # get count of jokes on server
+    count_response = requests.get(url+"/count")
+    count_json = count_response.json()
+    count = count_json['count']
+
 
     # get count of jokes on server
     count_response = requests.get(url+"/count")
@@ -74,7 +80,7 @@ if __name__ == "__main__":
     # update likes/dislikes test sequence
     num = str(random.randint(0, count-1)) # test a random record
     responses.append(
-        requests.get(url+"/"+num)  # read joke by id
+        requests.get(url+"/"+num)  # read question by id
         ) 
     responses.append(
         requests.put(url+"/like/"+num) # add to like count
@@ -83,9 +89,9 @@ if __name__ == "__main__":
         requests.put(url+"/no/"+num) # add to jeer count
         ) 
 
-    # obtain a random joke
+    # obtain a random question
     responses.append(
-        requests.get(url+"/random")  # read a random joke
+        requests.get(url+"/random")  # read a random question
         ) 
 
     # cycle through responses
