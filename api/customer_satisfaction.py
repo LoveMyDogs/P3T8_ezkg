@@ -78,10 +78,10 @@ if __name__ == "__main__":
         requests.get(url+"/"+num)  # read question by id
         ) 
     responses.append(
-        requests.put(url+"/like/"+num) # add to like count
+        requests.put(url+"like/"+num) # add to like count
         ) 
     responses.append(
-        requests.put(url+"/no/"+num) # add to jeer count
+        requests.put(url+"no/"+num) # add to jeer count
         ) 
 
     # obtain a random question
