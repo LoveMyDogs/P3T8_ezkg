@@ -98,7 +98,7 @@ if __name__ == "__main__":
     best = favoriteQuestion()
     print("Done best", best['yes'])
     printQuestion(best)
-    worst = jeeredQuestion()
+    worst = worstQuestion()
     print("Where we did worst", worst['no'])
     printQuestion(worst)
     
