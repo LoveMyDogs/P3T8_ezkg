@@ -53,7 +53,7 @@ def favoriteQuestion():
     return questions_data[bestID]
     
 # Jeered question,  we are doing bad lmao ;)
-def jeeredQuestion():
+def worstQuestion():
     worst = 0
     worstID = -1
     for question in getQuestions():
