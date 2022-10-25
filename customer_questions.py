@@ -38,7 +38,7 @@ def getQuestions():
 
 # Question getter
 def getQuestion(id):
-    return(questions_list[id])
+    return(questions_data[id])
 
 # Return random question from question_data
 def getRandomQuestion():
