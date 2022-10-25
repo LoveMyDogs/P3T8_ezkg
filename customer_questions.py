@@ -1,6 +1,8 @@
 import random
 
 questions_data = []
+
+
 questions_list = [
     "Was the website readable?",
     "Were the explanations done well?",
@@ -32,11 +34,11 @@ def initQuestions():
         
 # Return all questions from questions_data
 def getQuestions():
-    return(questions_data)
+    return(questions_list)
 
 # Question getter
 def getQuestion(id):
-    return(questions_data[id])
+    return(questions_list[id])
 
 # Return random question from question_data
 def getRandomQuestion():
@@ -63,7 +65,7 @@ def worstQuestion():
     return questions_data[worstID]
 
 # Add to yes for requested id
-def addQuestionYes(id):
+def addQuestionYes(id: int):
     questions_data[id]['yes'] = questions_data[id]['yes'] + 1
     return questions_data[id]['yes']
 
