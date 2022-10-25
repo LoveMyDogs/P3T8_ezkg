@@ -34,7 +34,7 @@ def initQuestions():
         
 # Return all questions from questions_data
 def getQuestions():
-    return(questions_list)
+    return(questions_data)
 
 # Question getter
 def getQuestion(id):
