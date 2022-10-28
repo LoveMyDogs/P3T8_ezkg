@@ -31,6 +31,3 @@ btn.addEventListener('click', function(){
     console.log('Clicked!');
 });
 
-btn.addEventListener('click', function(){
-    console.log('Clicked!');
-});
