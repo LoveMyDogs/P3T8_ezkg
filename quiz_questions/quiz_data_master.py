@@ -1,8 +1,8 @@
 import json
 import os
-SUBJ_STATS = "Statistics"
-SUBJ_CS = "APCS"
-SUBJ_Cal = "APCal"
+SUBJ_Stats = "APStats"
+SUBJ_Phys = "Physics"
+SUBJ_Calc = "APCalc"
 class QuizDataMaster:
     quiz_data = []
     # Initialize questions
