@@ -1,5 +1,6 @@
 import json
 import os
+import random
 SUBJ_Stats = "APStats"
 SUBJ_Phys = "Physics"
 SUBJ_Calc = "APCalc"
@@ -15,5 +16,17 @@ class QuizDataMaster:
     def get_questions(self, subject):
         questions = []
         return self.quiz_data[subject]
+
+    # Work your mom did above, work I'm doing below, trying to get new functions
+    # defined in this format and failing
+ 
+    # Here is an individual question getter, it doesn't seem to register the id
+    # Probably because it's initially in json format?
+    def get_question(self,subject):
+        return self.quiz_data[id]
+
+    #Here it's getting a random question, not sure if it works tho 
+    def get_random_question(self,subject):
+        return(random.choice(self.quiz_data[subject]))
 
 quiz_data_master  = QuizDataMaster()
