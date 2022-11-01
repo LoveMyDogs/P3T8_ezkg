@@ -32,4 +32,36 @@ class QuizDataMaster:
     def get_random_questions(self, subject, totalQsInQuiz:int):
         return(random.sample(self.quiz_data[subject], totalQsInQuiz))
 
+    def check_answer(self, question, answer):
+        QnA = {}
+        result = {
+            'correctAnswer': '', 
+            'scoreForThisAnswer': 0,
+            'totalScore': 0, 
+            'solution': ''
+        }
+         
+        for q in self.current_quiz:
+            if question == q['question']:
+                QnA = q
+                break
+        
+        if (QnA == {}):
+            return 'Cannot find question'
+
+        result['correctAnswer'] =  QnA['answer']
+        result['solution'] =  QnA['solution']
+        if (answer == QnA['answer']):
+            self.student_data['totalScore'] =  self.student_data['totalScore'] + QnA['score']
+            result['scoreForThisAnswer'] = QnA['score']
+            print('Good answer for : ', QnA['question'], QnA['score'])
+        else:
+            # no score since answer is incorrect. 
+            # UI can check for this value and display incorrect message
+            # and with correct answer
+            result['scoreForThisAnswer'] = 0
+
+        result['totalScore'] = self.student_data['totalScore']
+        return result
+        
 quiz_data_master  = QuizDataMaster()
