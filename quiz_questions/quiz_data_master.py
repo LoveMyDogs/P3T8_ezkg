@@ -32,7 +32,7 @@ class QuizDataMaster:
     def get_random_questions(self, subject, totalQsInQuiz:int):
         return(random.sample(self.quiz_data[subject], totalQsInQuiz))
 
-    def check_answer(self, question, answer):
+    def check_answer(self, questId, answer):
         QnA = {}
         result = {
             'correctAnswer': '', 
@@ -40,9 +40,9 @@ class QuizDataMaster:
             'totalScore': 0, 
             'solution': ''
         }
-         
+        # Todo: question->id 
         for q in self.current_quiz:
-            if question == q['question']:
+            if questId == q['id']:
                 QnA = q
                 break
         
