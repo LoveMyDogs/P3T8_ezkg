@@ -17,7 +17,6 @@ class QuizDataMaster:
         return self.quiz_data
 
     def get_questions(self, subject):
-
         return self.quiz_data[subject]
 
     # Work your mom did above, work I'm doing below, trying to get new functions
@@ -31,5 +30,13 @@ class QuizDataMaster:
     #Here it's getting a random question, not sure if it works tho 
     def get_random_question(self, subject, totalQsInQuiz:int):
         return(random.choice(self.quiz_data[subject], totalQsInQuiz))
+
+    # Creating a randomized list for the user to answer, don't know why it doesn't show up as something
+    def randomized_question_list():
+        random.shuffle(get_questions())
+
+        
+
+
 
 quiz_data_master  = QuizDataMaster()
