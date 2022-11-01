@@ -29,7 +29,7 @@ class QuizDataMaster:
         return self.quiz_data[subject] [question]
 
     #Here it's getting a random question, not sure if it works tho 
-    def get_random_question(self, subject, totalQsInQuiz:int):
-        return(random.choice(self.quiz_data[subject], totalQsInQuiz))
+    def get_random_questions(self, subject, totalQsInQuiz:int):
+        return(random.sample(self.quiz_data[subject], totalQsInQuiz))
 
 quiz_data_master  = QuizDataMaster()
