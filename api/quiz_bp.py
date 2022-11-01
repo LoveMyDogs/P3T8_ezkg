@@ -22,6 +22,6 @@ class QuizAPI:
     quiz_api.add_resource(_Get, '/<string:subject>/<int:totalQsInQuiz>')
     quiz_api.add_resource(_Read, '/')
 
-   # cust_api.add_resource('_CheckAnswer')
+   # quiz_api.add_resource('_CheckAnswer')
     
       
