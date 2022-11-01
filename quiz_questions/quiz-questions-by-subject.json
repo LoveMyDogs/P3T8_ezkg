@@ -9,6 +9,7 @@
       "score": 1,
       "choices": [
         "badchoice2",
+        "dadffd",
         "bla",
         "badchoice1"
       ]
@@ -23,6 +24,7 @@
       "choices": [
         "badchoice2",
         "bla2",
+        "dadffdddd",
         "badchoice1"
       ]
     },
@@ -35,6 +37,7 @@
       "score": 1,
       "choices": [
         "badchoice2",
+        "dadffdddd",
         "bla2",
         "badchoice1"
       ]
@@ -47,6 +50,7 @@
       "solution": "dadffdddd",
       "score": 1,
       "choices": [
+        "dadffdddd",
         "badchoice2",
         "bla2",
         "badchoice1"
@@ -62,6 +66,7 @@
       "choices": [
         "badchoice2",
         "bla2",
+        "dadffdddd",
         "badchoice1"
       ]
     },
@@ -75,7 +80,8 @@
       "choices": [
         "badchoice2",
         "bla2",
-        "badchoice1"
+        "badchoice1",
+        "dadffdddd"
       ]
     },
     {
@@ -87,6 +93,7 @@
       "score": 1,
       "choices": [
         "badchoice2",
+        "dadffdddd",
         "bla2",
         "badchoice1"
       ]
@@ -100,6 +107,7 @@
       "score": 1,
       "choices": [
         "badchoice2",
+        "dadffdddd",
         "bla2",
         "badchoice1"
       ]
@@ -114,7 +122,8 @@
       "choices": [
         "badchoice2",
         "bla2",
-        "badchoice1"
+        "badchoice1",
+        "dadffdddd"
       ]
     },
     {
@@ -125,6 +134,7 @@
       "solution": "dadffdddd",
       "score": 1,
       "choices": [
+        "dadffdddd",
         "badchoice2",
         "bla2",
         "badchoice1"
@@ -140,6 +150,7 @@
       "choices": [
         "badchoice2",
         "bla2",
+        "dadffdddd",
         "badchoice1"
       ]
     }
@@ -155,7 +166,8 @@
       "choices": [
         "badchoice2",
         "bla",
-        "good"
+        "good",
+        "NA"
       ]
     },
     {
@@ -167,6 +179,7 @@
       "score": 1,
       "choices": [
         "good",
+        "dadffdddd",
         "bla2",
         "badchoice1"
       ]
@@ -179,6 +192,7 @@
       "solution": "NA",
       "score": 1,
       "choices": [
+        "NA",
         "badchoice2",
         "bla",
         "good"
@@ -194,7 +208,8 @@
       "choices": [
         "good",
         "bla2",
-        "badchoice1"
+        "badchoice1",
+        "dadffdddd"
       ]
     },
     {
@@ -206,6 +221,7 @@
       "score": 1,
       "choices": [
         "badchoice2",
+        "NA",
         "bla",
         "good"
       ]
@@ -220,7 +236,8 @@
       "choices": [
         "badchoice2",
         "bla",
-        "good"
+        "good",
+        "NA"
       ]
     },
     {
@@ -232,6 +249,7 @@
       "score": 1,
       "choices": [
         "badchoice2",
+        "NA",
         "bla",
         "good"
       ]
@@ -246,7 +264,8 @@
       "choices": [
         "badchoice2",
         "bla",
-        "good"
+        "good",
+        "NA"
       ]
     },
     {
@@ -257,6 +276,7 @@
       "solution": "NA",
       "score": 1,
       "choices": [
+        "NA",
         "badchoice2",
         "bla",
         "good"
@@ -272,6 +292,7 @@
       "choices": [
         "badchoice2",
         "bla",
+        "NA",
         "good"
       ]
     }
@@ -287,7 +308,8 @@
       "choices": [
         "0.1",
         "10",
-        "1000"
+        "1000",
+        "NA"
       ]
     },
     {
@@ -300,7 +322,8 @@
       "choices": [
         "Velocity",
         "300^i + 400^j",
-        "Gravity"
+        "Gravity",
+        "You know, vectors, direction and magnitude"
       ]
     },
     {
@@ -313,7 +336,8 @@
       "choices": [
         "220",
         "57",
-        "15"
+        "15",
+        "Woosh voosh, uh, angles, "
       ]
     },
     {
@@ -326,6 +350,7 @@
       "choices": [
         "acceleration and electric charge",
         "mass and gravitational field",
+        "Vecotrs and scalars, yeah ",
         "speed and time interval"
       ]
     },
@@ -339,6 +364,7 @@
       "choices": [
         "Sitting position",
         "Lying position",
+        "You know, weight, gravitational force, points of contact",
         "None of these"
       ]
     },
@@ -350,6 +376,7 @@
       "solution": "Water is less dense than ice and all",
       "score": 1,
       "choices": [
+        "Water is less dense than ice and all",
         "Rise",
         "None of these",
         "Remain level"
@@ -364,6 +391,7 @@
       "score": 1,
       "choices": [
         "Gas only",
+        "I didn't make this question, ask the next guy ",
         "Liquid only",
         "Solid only"
       ]
@@ -376,6 +404,7 @@
       "solution": "When in orbit, velocity, and other accelerations change, but angular acceleration is always the same",
       "score": 1,
       "choices": [
+        "When in orbit, velocity, and other accelerations change, but angular acceleration is always the same",
         "Linear velocity",
         "Angular displacement",
         "None of these"
@@ -391,7 +420,8 @@
       "choices": [
         "Work",
         "Energy",
-        "Momentum"
+        "Momentum",
+        "Power to the people! The means are in your hands!"
       ]
     },
     {
@@ -404,7 +434,8 @@
       "choices": [
         "Alcohol",
         "Methane",
-        "Kerosene"
+        "Kerosene",
+        "I haven't gotten here yet, didn't make these questions, uh, memorize this stuff ig"
       ]
     },
     {
@@ -416,6 +447,7 @@
       "score": 1,
       "choices": [
         "Decreases",
+        "Cause like, pressure you know?",
         "Remains same",
         "Zero"
       ]
@@ -430,6 +462,7 @@
       "choices": [
         "Metallic character",
         "Basic Character",
+        "Because you know, metallic substances would be electro positive? I am in mechanical physics i'm sorry",
         "None of these"
       ]
     },
@@ -441,6 +474,7 @@
       "solution": "Work work work work",
       "score": 1,
       "choices": [
+        "Work work work work",
         "A vector quantity",
         "What you do for a job",
         "Always positive"
