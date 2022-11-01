@@ -148,7 +148,7 @@
     {
       "id": "Q1",
       "question": "cal1",
-      "isImage": false,
+      "isImage": true,
       "answer": 2,
       "solution": "NA",
       "score": 1,
@@ -161,7 +161,7 @@
     {
       "id": "Q2",
       "question": "bla2",
-      "isImage": false,
+      "isImage": true,
       "answer": 0,
       "solution": "dadffdddd",
       "score": 1,
@@ -174,7 +174,7 @@
     {
       "id": "Q3",
       "question": "cal1",
-      "isImage": false,
+      "isImage": true,
       "answer": 2,
       "solution": "NA",
       "score": 1,
@@ -187,7 +187,7 @@
     {
       "id": "Q4",
       "question": "bla3",
-      "isImage": false,
+      "isImage": true,
       "answer": 0,
       "solution": "dadffdddd",
       "score": 1,
@@ -213,7 +213,7 @@
     {
       "id": "Q6",
       "question": "cal1",
-      "isImage": false,
+      "isImage": true,
       "answer": 2,
       "solution": "NA",
       "score": 1,
@@ -226,7 +226,46 @@
     {
       "id": "Q7",
       "question": "cal1",
-      "isImage": false,
+      "isImage": true,
+      "answer": 2,
+      "solution": "NA",
+      "score": 1,
+      "choices": [
+        "badchoice2",
+        "bla",
+        "good"
+      ]
+    },
+    {
+      "id": "Q8",
+      "question": "cal1",
+      "isImage": true,
+      "answer": 2,
+      "solution": "NA",
+      "score": 1,
+      "choices": [
+        "badchoice2",
+        "bla",
+        "good"
+      ]
+    },
+    {
+      "id": "Q9",
+      "question": "cal1",
+      "isImage": true,
+      "answer": 2,
+      "solution": "NA",
+      "score": 1,
+      "choices": [
+        "badchoice2",
+        "bla",
+        "good"
+      ]
+    },
+    {
+      "id": "Q10",
+      "question": "cal1",
+      "isImage": true,
       "answer": 2,
       "solution": "NA",
       "score": 1,
