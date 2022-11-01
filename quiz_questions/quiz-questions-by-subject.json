@@ -240,9 +240,9 @@
   "Physics": [
     {
       "id": "Q1",
-      "question": "CS1",
+      "question": "How many centimeters are in one meter? ",
       "isImage": false,
-      "answer": 2,
+      "answer": "100",
       "solution": "NA",
       "score": 1,
       "choices": [
@@ -253,10 +253,10 @@
     },
     {
       "id": "Q2",
-      "question": "CS2",
+      "question": "Which of the following is not a vector?",
       "isImage": false,
-      "answer": 0,
-      "solution": "dadffdddd",
+      "answer": "Temperature",
+      "solution": "You know, vectors, direction and magnitude",
       "score": 1,
       "choices": [
         "Velocity",
@@ -265,7 +265,9 @@
       ]
     },
     {
+      "id": "Q3",
       "question": "Projectile will attain its maximum range, if it is fired at an angle of ?",
+      "isImage": false,
       "answer": "45",
       "solution": "Woosh voosh, uh, angles, ",
       "score": 1,
@@ -276,7 +278,9 @@
       ]
     },
     {
+      "id": "Q4",
       "question": "Of these pairs, which is made up of two vectors?",
+      "isImage": false,
       "answer": "Velocity and force",
       "solution": "Vecotrs and scalars, yeah ",
       "score": 1,
@@ -287,7 +291,9 @@
       ]
     },
     {
+      "id": "Q5",
       "question": "A man presses more weight on earth at:",
+      "isImage": false,
       "answer": "Standing position",
       "solution": "You know, weight, gravitational force, points of contact",
       "score": 1,
@@ -298,7 +304,9 @@
       ]
     },
     {
+      "id": "Q6",
       "question": "A piece of ice is dropped in a vessel containing kerosene. When ice melts, the level of kerosene will",
+      "isImage": false,
       "answer": "Fall",
       "solution": "Water is less dense than ice and all",
       "score": 1,
@@ -309,7 +317,9 @@
       ]
     },
     {
+      "id": "Q7",
       "question": "Young's modulus is the property of?",
+      "isImage": false,
       "answer": "Solid only",
       "solution": "I didn't make this question, ask the next guy ",
       "score": 1,
@@ -320,7 +330,9 @@
       ]
     },
     {
+      "id": "Q8",
       "question": "An artificial Satellite revolves round the Earth in circular orbit, which quantity remains constant?",
+      "isImage": false,
       "answer": "Angular acceleration",
       "solution": "When in orbit, velocity, and other accelerations change, but angular acceleration is always the same",
       "score": 1,
@@ -331,7 +343,9 @@
       ]
     },
     {
+      "id": "Q9",
       "question": "The product of force and velocity is called?",
+      "isImage": false,
       "answer": "Power",
       "solution": "Power to the people! The means are in your hands!",
       "score": 1,
@@ -342,7 +356,9 @@
       ]
     },
     {
+      "id": "Q10",
       "question": "Which one of the following has the highest value of specific heat ?",
+      "isImage": false,
       "answer": "Water",
       "solution": "I haven't gotten here yet, didn't make these questions, uh, memorize this stuff ig",
       "score": 1,
@@ -353,7 +369,9 @@
       ]
     },
     {
+      "id": "Q11",
       "question": "With the increase of pressure, the boiling point of any substance:",
+      "isImage": false,
       "answer": "Increases",
       "solution": "Cause like, pressure you know?",
       "score": 1,
@@ -364,7 +382,9 @@
       ]
     },
     {
+      "id": "Q12",
       "question": "Electronegativity is the measure of",
+      "isImage": false,
       "answer": "Non-metallic substance",
       "solution": "Because you know, metallic substances would be electro positive? I am in mechanical physics i'm sorry",
       "score": 1,
@@ -375,7 +395,9 @@
       ]
     },
     {
+      "id": "Q13",
       "question": "As defined in physics, work is?",
+      "isImage": false,
       "answer": "A scalar quantity",
       "solution": "Work work work work",
       "score": 1,
