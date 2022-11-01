@@ -3,9 +3,11 @@ from flask import render_template  # import render_template from "public" flask 
 # import "packages" from "this" project
 from __init__ import app  # Definitions initialization
 from api.customer_satisfaction import cust_app_api
+from api.quiz_bp import quiz_app_api
 from bp_projects.projects import app_projects # Blueprint directory import projects definition
 
 app.register_blueprint(cust_app_api) # register customer api routes
+app.register_blueprint(quiz_app_api)
 app.register_blueprint(app_projects) # register api routes
 
 @app.errorhandler(404)  # catch for URL not found

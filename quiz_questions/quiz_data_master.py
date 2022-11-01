@@ -28,15 +28,39 @@ class QuizDataMaster:
         return self.quiz_data[subject] [question]
 
     #Here it's getting a random question, not sure if it works tho 
-    def get_random_question(self, subject, totalQsInQuiz:int):
-        return(random.choice(self.quiz_data[subject], totalQsInQuiz))
+    def get_random_questions(self, subject, totalQsInQuiz:int):
+        return(random.sample(self.quiz_data[subject], totalQsInQuiz))
 
-    # Creating a randomized list for the user to answer, don't know why it doesn't show up as something
-    def randomized_question_list():
-        random.shuffle(get_questions())
-
+    def check_answer(self, questId, answer):
+        QnA = {}
+        result = {
+            'correctAnswer': '', 
+            'scoreForThisAnswer': 0,
+            'totalScore': 0, 
+            'solution': ''
+        }
+        # Todo: question->id 
+        for q in self.current_quiz:
+            if questId == q['id']:
+                QnA = q
+                break
         
+        if (QnA == {}):
+            return 'Cannot find question'
 
+        result['correctAnswer'] =  QnA['answer']
+        result['solution'] =  QnA['solution']
+        if (answer == QnA['answer']):
+            self.student_data['totalScore'] =  self.student_data['totalScore'] + QnA['score']
+            result['scoreForThisAnswer'] = QnA['score']
+            print('Good answer for : ', QnA['question'], QnA['score'])
+        else:
+            # no score since answer is incorrect. 
+            # UI can check for this value and display incorrect message
+            # and with correct answer
+            result['scoreForThisAnswer'] = 0
 
-
+        result['totalScore'] = self.student_data['totalScore']
+        return result
+        
 quiz_data_master  = QuizDataMaster()

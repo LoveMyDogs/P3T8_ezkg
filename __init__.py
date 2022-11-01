@@ -2,7 +2,8 @@ from flask import Flask
 from flask_login import LoginManager
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
-from customer_questions import initQuestions
+from quiz_questions.quiz_data_master import *
+from customer_questions import initCustomerQuestions
 
 """
 These object can be used throughout project.
@@ -22,4 +23,9 @@ Migrate(app, db)
 
 @app.before_first_request
 def activate_job():
-    initQuestions()  
+    initCustomerQuestions()
+
+@app.before_first_request
+def activate_job():
+    quiz_data_master.init()
+    
