@@ -203,25 +203,146 @@
   ],
   "Physics": [
     {
-      "question": "CS1",
-      "answer": 2,
-      "solution": "NA",
+      "question": "How many centimeters are in one meter? ",
+      "answer": "100",
+      "solution": "Memorization",
       "score": 1,
       "choices": [
-        "badchoice2",
-        "bla",
-        "good"
+        "0.1",
+        "10",
+        "1000"
       ]
     },
     {
-      "question": "CS2",
-      "answer": 0,
-      "solution": "dadffdddd",
+      "question": "Which of the following is not a vector?",
+      "answer": "Temperature",
+      "solution": "Ya know, vectors, look at explanations ig",
       "score": 1,
       "choices": [
-        "good",
-        "bla2",
-        "badchoice1"
+        "Velocity",
+        "300^i + 400^j",
+        "Gravity"
+      ]
+    },
+    {
+      "question": "Projectile will attain its maximum range, if it is fired at an angle of ?",
+      "answer": "45",
+      "solution": "Woosh voosh, uh, angles, ",
+      "score": 1,
+      "choices": [
+        "220",
+        "57",
+        "15"
+      ]
+    },
+    {
+      "question": "Of these pairs, which is made up of two vectors?",
+      "answer": "Velocity and force",
+      "solution": "Vecotrs and scalars, yeah ",
+      "score": 1,
+      "choices": [
+        "acceleration and electric charge",
+        "mass and gravitational field",
+        "speed and time interval"
+      ]
+    },
+    {
+      "question": "A man presses more weight on earth at:",
+      "answer": "Standing position",
+      "solution": "You know, weight, gravitational force, points of contact",
+      "score": 1,
+      "choices": [
+        "Sitting position",
+        "Lying position",
+        "None of these"
+      ]
+    },
+    {
+      "question": "A piece of ice is dropped in a vessel containing kerosene. When ice melts, the level of kerosene will",
+      "answer": "Fall",
+      "solution": "Water is less dense than ice and all",
+      "score": 1,
+      "choices": [
+        "Rise",
+        "None of these",
+        "Remain level"
+      ]
+    },
+    {
+      "question": "Young's modulus is the property of?",
+      "answer": "Solid only",
+      "solution": "I didn't make this question, ask the next guy ",
+      "score": 1,
+      "choices": [
+        "Gas only",
+        "Liquid only",
+        "Solid only"
+      ]
+    },
+    {
+      "question": "An artificial Satellite revolves round the Earth in circular orbit, which quantity remains constant?",
+      "answer": "Angular acceleration",
+      "solution": "When in orbit, velocity, and other accelerations change, but angular acceleration is always the same",
+      "score": 1,
+      "choices": [
+        "Linear velocity",
+        "Angular displacement",
+        "None of these"
+      ]
+    },
+    {
+      "question": "The product of force and velocity is called?",
+      "answer": "Power",
+      "solution": "Power to the people! The means are in your hands!",
+      "score": 1,
+      "choices": [
+        "Work",
+        "Energy",
+        "Momentum"
+      ]
+    },
+    {
+      "question": "Which one of the following has the highest value of specific heat ?",
+      "answer": "Water",
+      "solution": "I haven't gotten here yet, didn't make these questions, uh, memorize this stuff ig",
+      "score": 1,
+      "choices": [
+        "Alcohol",
+        "Methane",
+        "Kerosene"
+      ]
+    },
+    {
+      "question": "With the increase of pressure, the boiling point of any substance:",
+      "answer": "Increases",
+      "solution": "Cause like, pressure you know?",
+      "score": 1,
+      "choices": [
+        "Decreases",
+        "Remains same",
+        "Zero"
+      ]
+    },
+    {
+      "question": "Electronegativity is the measure of",
+      "answer": "Non-metallic substance",
+      "solution": "Because you know, metallic substances would be electro positive? I am in mechanical physics i'm sorry",
+      "score": 1,
+      "choices": [
+        "Metallic character",
+        "Basic Character",
+        "None of these"
+      ]
+    },
+    {
+      "question": "As defined in physics, work is?",
+      "answer": "A scalar quantity",
+      "solution": "Work work work work",
+      "score": 1,
+      "choices": [
+        "A vector quantity",
+        "What you do for a job",
+        "Always positive"
       ]
     }
   ]
