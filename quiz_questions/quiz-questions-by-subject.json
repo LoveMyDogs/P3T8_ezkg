@@ -16,31 +16,31 @@
     },
     {
       "id": "Q2",
-      "question": "Question2",
+      "question": "How does a positive outlier affect a dataset?",
       "isImage": false,
-      "answer": "blah",
-      "solution": "dadffdddd",
+      "answer": "The median stays relatively the same, and the mean increases",
+      "solution": " “The median stays relatively the same, and the mean increases.” When adding a positive outlier, the value will shift slightly for the mean. This is because the mean is the average of a data set, and adding a higher value will shift the mean to include this higher value, causing the mean to increase. In comparison, the median only takes the number of each value into account, so the middle value does not change very much",
       "score": 1,
       "choices": [
-        "badchoice2",
-        "bla2",
-        "dadffdddd",
-        "badchoice1"
+        "The mean and median increase",
+        "The median decreases, the mean stays relatively the same",
+        "The median stays relatively the same, and the mean increases",
+        "The mean and median stay the same"
+
       ]
     },
     {
       "id": "Q3",
       "question": "Question3",
       "isImage": false,
-      "answer": "blah",
-      "solution": "dadffdddd",
+      "answer": "Any difference between the sample results and the truth about the population that tends to occur in the same direction whenever using this sampling method",
+      "solution": " “Any difference between the sample results and the truth about the population that tends to occur in the same direction whenever using this sampling method.” During sampling, bias is created when results are skewed unevenly towards a specific population. ",
       "score": 1,
       "choices": [
-        "badchoice2",
-        "dadffdddd",
-        "bla2",
-        "badchoice1"
-      ]
+        "Any difference between the sample result and the truth about the population",        
+        "The difference between the sample result and the truth about the population due to using chance to select a sample",
+        "Any difference between the sample results and the truth about the population due to practical difficulties such as contacting the subjects selected",
+        "Any difference between the sample results and the truth about the population that tends to occur in the same direction whenever using this sampling method"      ]
     },
     {
       "id": "Q4",
@@ -308,8 +308,8 @@
       "choices": [
         "0.1",
         "10",
-        "1000",
-        "NA"
+        "100",
+        "1000"
       ]
     },
     {
@@ -323,7 +323,7 @@
         "Velocity",
         "300^i + 400^j",
         "Gravity",
-        "You know, vectors, direction and magnitude"
+        "Temperature"
       ]
     },
     {
@@ -337,7 +337,7 @@
         "220",
         "57",
         "15",
-        "Woosh voosh, uh, angles, "
+        "45"
       ]
     },
     {
@@ -350,7 +350,7 @@
       "choices": [
         "acceleration and electric charge",
         "mass and gravitational field",
-        "Vecotrs and scalars, yeah ",
+        "Velocity and force",
         "speed and time interval"
       ]
     },
@@ -364,7 +364,7 @@
       "choices": [
         "Sitting position",
         "Lying position",
-        "You know, weight, gravitational force, points of contact",
+        "Standing position",
         "None of these"
       ]
     },
@@ -376,7 +376,7 @@
       "solution": "Water is less dense than ice and all",
       "score": 1,
       "choices": [
-        "Water is less dense than ice and all",
+        "Fall",
         "Rise",
         "None of these",
         "Remain level"
@@ -391,7 +391,7 @@
       "score": 1,
       "choices": [
         "Gas only",
-        "I didn't make this question, ask the next guy ",
+        "Both Solid and Liquid",
         "Liquid only",
         "Solid only"
       ]
@@ -404,7 +404,7 @@
       "solution": "When in orbit, velocity, and other accelerations change, but angular acceleration is always the same",
       "score": 1,
       "choices": [
-        "When in orbit, velocity, and other accelerations change, but angular acceleration is always the same",
+        "Angular acceleration",
         "Linear velocity",
         "Angular displacement",
         "None of these"
@@ -421,7 +421,7 @@
         "Work",
         "Energy",
         "Momentum",
-        "Power to the people! The means are in your hands!"
+        "Power"
       ]
     },
     {
@@ -435,7 +435,7 @@
         "Alcohol",
         "Methane",
         "Kerosene",
-        "I haven't gotten here yet, didn't make these questions, uh, memorize this stuff ig"
+        "Water"
       ]
     },
     {
@@ -447,7 +447,7 @@
       "score": 1,
       "choices": [
         "Decreases",
-        "Cause like, pressure you know?",
+        "Increases",
         "Remains same",
         "Zero"
       ]
@@ -462,7 +462,7 @@
       "choices": [
         "Metallic character",
         "Basic Character",
-        "Because you know, metallic substances would be electro positive? I am in mechanical physics i'm sorry",
+        "Non-metallic substance",
         "None of these"
       ]
     },
@@ -474,7 +474,7 @@
       "solution": "Work work work work",
       "score": 1,
       "choices": [
-        "Work work work work",
+        "A scalar quantity",
         "A vector quantity",
         "What you do for a job",
         "Always positive"
