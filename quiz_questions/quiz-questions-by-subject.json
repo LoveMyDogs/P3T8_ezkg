@@ -289,7 +289,7 @@
       "question": "How many centimeters are in one meter? ",
       "isImage": false,
       "answer": "100",
-      "solution": "NA",
+      "solution": "Conversion of length units",
       "score": 1,
       "choices": [
         "0.1",
@@ -317,7 +317,7 @@
       "question": "Projectile will attain its maximum range, if it is fired at an angle of ?",
       "isImage": false,
       "answer": "45",
-      "solution": "Woosh voosh, uh, angles, ",
+      "solution": "If the downward acceleration is constant, the time of the object in the air is proportional to the horizontal distance",
       "score": 1,
       "choices": [
         "220",
@@ -345,7 +345,7 @@
       "question": "A man presses more weight on earth at:",
       "isImage": false,
       "answer": "Standing position",
-      "solution": "You know, weight, gravitational force, points of contact",
+      "solution": "When the weight is certain, the smaller the area under pressure, the greater the pressure on the ground",
       "score": 1,
       "choices": [
         "Sitting position",
@@ -415,7 +415,7 @@
       "question": "Which one of the following has the highest value of specific heat ?",
       "isImage": false,
       "answer": "Water",
-      "solution": "I haven't gotten here yet, didn't make these questions, uh, memorize this stuff ig",
+      "solution": "Properties of water",
       "score": 1,
       "choices": [
         "Alcohol",
@@ -429,7 +429,7 @@
       "question": "With the increase of pressure, the boiling point of any substance:",
       "isImage": false,
       "answer": "Increases",
-      "solution": "Cause like, pressure you know?",
+      "solution": "The boiling point is proportional to the air pressure. The higher the air pressure, the higher the boiling point.",
       "score": 1,
       "choices": [
         "Decreases",
@@ -443,7 +443,7 @@
       "question": "Electronegativity is the measure of",
       "isImage": false,
       "answer": "Non-metallic substance",
-      "solution": "Because you know, metallic substances would be electro positive? I am in mechanical physics i'm sorry",
+      "solution": "Electronegativity properties",
       "score": 1,
       "choices": [
         "Metallic character",
@@ -457,7 +457,7 @@
       "question": "As defined in physics, work is?",
       "isImage": false,
       "answer": "A scalar quantity",
-      "solution": "Work work work work",
+      "solution": "The concept of scalar quantity",
       "score": 1,
       "choices": [
         "A scalar quantity",
