@@ -160,49 +160,49 @@
       "id": "Q1",
       "question": "cal1",
       "isImage": true,
-      "answer": 2,
+      "answer": "-2/(√x)",
       "solution": "NA",
       "score": 1,
       "choices": [
-        "badchoice2",
-        "bla",
-        "good",
-        "NA"
+        "-2/(√x)",
+        "-2",
+        "1/(√x)",
+        "2/(√x)"
       ]
     },
     {
       "id": "Q2",
       "question": "bla2",
       "isImage": true,
-      "answer": 0,
+      "answer": "335/3",
       "solution": "dadffdddd",
       "score": 1,
       "choices": [
-        "good",
-        "dadffdddd",
-        "bla2",
-        "badchoice1"
+        "335/6",
+        "45",
+        "5/3",
+        "335/3"
       ]
     },
     {
       "id": "Q3",
       "question": "cal1",
       "isImage": true,
-      "answer": 2,
+      "answer": "3(x^2)*cos(x^3)*log(x^2)+sin(x^3)*2/(x*ln(10))",
       "solution": "NA",
       "score": 1,
       "choices": [
-        "NA",
-        "badchoice2",
-        "bla",
-        "good"
+        "cos(x^3)* 1/(ln(10)*x^2)",
+        "cos(x^3)*log(x^2)+1/(ln(10)*x^2)*sin(x^3)",
+        "-cos(x^3)*log(x^2)+1/(ln(10)*x^2)*sin(x^3)",
+        "3(x^2)*cos(x^3)*log(x^2)+sin(x^3)*2/(x*ln(10))"
       ]
     },
     {
       "id": "Q4",
       "question": "bla3",
       "isImage": true,
-      "answer": 0,
+      "answer": "1/(2πr)",
       "solution": "dadffdddd",
       "score": 1,
       "choices": [
