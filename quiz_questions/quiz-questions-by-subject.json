@@ -10,7 +10,7 @@
       "choices": [
         "badchoice2",
         "dadffd",
-        "bla",
+        "blah",
         "badchoice1"
       ]
     },
@@ -19,13 +19,13 @@
       "question": "How does a positive outlier affect a dataset?",
       "isImage": false,
       "answer": "The median stays relatively the same, and the mean increases",
-      "solution": " “The median stays relatively the same, and the mean increases.” When adding a positive outlier, the value will shift slightly for the mean. This is because the mean is the average of a data set, and adding a higher value will shift the mean to include this higher value, causing the mean to increase. In comparison, the median only takes the number of each value into account, so the middle value does not change very much",
+      "solution": "When adding a positive outlier, the value will shift slightly for the mean. This is because the mean is the average of a data set, and adding a higher value will shift the mean to include this higher value, causing the mean to increase. In comparison, the median only takes the number of each value into account, so the middle value does not change very much.",
       "score": 1,
       "choices": [
-        "The mean and median increase",
-        "The median decreases, the mean stays relatively the same",
-        "The median stays relatively the same, and the mean increases",
-        "The mean and median stay the same"
+        "The mean and median increase.",
+        "The median decreases, the mean stays relatively the same.",
+        "The median stays relatively the same, and the mean increases.",
+        "The mean and median stay the same."
 
       ]
     },
@@ -34,13 +34,13 @@
       "question": "Question3",
       "isImage": false,
       "answer": "Any difference between the sample results and the truth about the population that tends to occur in the same direction whenever using this sampling method",
-      "solution": " “Any difference between the sample results and the truth about the population that tends to occur in the same direction whenever using this sampling method.” During sampling, bias is created when results are skewed unevenly towards a specific population. ",
+      "solution": "During sampling, bias is created when results are skewed unevenly towards a specific population.",
       "score": 1,
       "choices": [
-        "Any difference between the sample result and the truth about the population",        
-        "The difference between the sample result and the truth about the population due to using chance to select a sample",
-        "Any difference between the sample results and the truth about the population due to practical difficulties such as contacting the subjects selected",
-        "Any difference between the sample results and the truth about the population that tends to occur in the same direction whenever using this sampling method"      ]
+        "Any difference between the sample result and the truth about the population.",        
+        "The difference between the sample result and the truth about the population due to using chance to select a sample.",
+        "Any difference between the sample results and the truth about the population due to practical difficulties such as contacting the subjects selected.",
+        "Any difference between the sample results and the truth about the population that tends to occur in the same direction whenever using this sampling method."]
     },
     {
       "id": "Q4",
@@ -331,7 +331,7 @@
       "question": "Of these pairs, which is made up of two vectors?",
       "isImage": false,
       "answer": "Velocity and force",
-      "solution": "Vecotrs and scalars, yeah ",
+      "solution": "Vectors and scalars.",
       "score": 1,
       "choices": [
         "acceleration and electric charge",

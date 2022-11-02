@@ -26,6 +26,6 @@ class QuizAPI:
     # building RESTapi resources/interfaces, these routes are added to Web Server
     quiz_api.add_resource(_Get, '/<string:subject>/<int:totalQsInQuiz>')
     quiz_api.add_resource(_Read, '/')
-    quiz_api.add_resource('_CheckAnswer', 'checkanswer')
+    quiz_api.add_resource(_CheckAnswer, 'checkanswer')
     
       
