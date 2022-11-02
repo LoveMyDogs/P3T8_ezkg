@@ -46,112 +46,98 @@
       "id": "Q4",
       "question": "Question4",
       "isImage": false,
-      "answer": "blah",
-      "solution": "dadffdddd",
+      "answer": "II only",
+      "solution": "As there was only around a third of the participants who responded to the survey, there is a large amount of the population that is unaccounted for. This is known non-response bias, which can skew the results of a survey because the opinions of the rest of the population is not known.",
       "score": 1,
       "choices": [
-        "dadffdddd",
-        "badchoice2",
-        "bla2",
-        "badchoice1"
+        "I only",
+        "II only",
+        "II and III only",
+        "I, II, and III" 
       ]
     },
     {
       "id": "Q5",
       "question": "Question5",
       "isImage": false,
-      "answer": "blah",
-      "solution": "dadffdddd",
+      "answer": "Randomized block, blocked by gender",
+      "solution": "The subjects (men and women) are organized into different groups within their groups, which makes them blocked by gender. The participants are randomized, which makes it a randomized block. ",
       "score": 1,
       "choices": [
-        "badchoice2",
-        "bla2",
-        "dadffdddd",
-        "badchoice1"
+        "Completely randomized with one factor, gender", 
+        "Completely randomized with one factor, drug", 
+        "Randomized block, blocked by drug and gender", 
+        "Randomized block, blocked by gender"
       ]
     },
     {
       "id": "Q6",
       "question": "Question6",
       "isImage": false,
-      "answer": "blah",
+      "answer": "4.83 inches",
       "solution": "dadffdddd",
       "score": 1,
       "choices": [
-        "badchoice2",
-        "bla2",
-        "badchoice1",
-        "dadffdddd"
+        "4.83 inches",
+        "8.93 inches",
+        "5.18 inches",
+        "The standard deviation cannot be computed from the given information"
       ]
     },
     {
       "id": "Q7",
       "question": "Question7",
       "isImage": false,
-      "answer": "blah",
-      "solution": "dadffdddd",
+      "answer": "If A and B are independent, then they cannot be mutually exclusive ",
+      "solution": " Independent events are events that can occur at the same time, but do not affect the outcome of each other. In comparison, mutually exclusive events are events that cannot occur simultaneously. Because of this, an event cannot be independent and mutually exclusive at the same time.",
       "score": 1,
       "choices": [
-        "badchoice2",
-        "dadffdddd",
-        "bla2",
-        "badchoice1"
+        "If A and B are mutually exclusive, then they must be independent",
+        "If A and B are independent, then they must be mutually exclusive",
+        "If A and B are not mutually exclusive, then they must be independent",
+        "If A and B are independent, then they cannot be mutually exclusive "
       ]
     },
     {
       "id": "Q8",
       "question": "Question8",
       "isImage": false,
-      "answer": "blah",
+      "answer": "0.035",
       "solution": "dadffdddd",
       "score": 1,
       "choices": [
-        "badchoice2",
-        "dadffdddd",
-        "bla2",
-        "badchoice1"
+        "0.011",
+        "0.035",
+        "0.092",
+        "0.989" 
       ]
     },
     {
       "id": "Q9",
       "question": "Question9",
       "isImage": false,
-      "answer": "blah",
-      "solution": "dadffdddd",
+      "answer": "The number of digits I read in a randomly selected row of the random digits table until I find a 7",
+      "solution": " For a geometric variable, an instance is repeated until it occurs. In this instance, the action (reading numbers) is repeated until the goal is reached (finding a 7) which makes it geometric.",
       "score": 1,
       "choices": [
-        "badchoice2",
-        "bla2",
-        "badchoice1",
-        "dadffdddd"
+        "The number of times I have to roll a die to get two 6s",
+        "The number of cards I deal from a well-shuffled deck of 52 cards until I get a heart",
+        "The number of digits I read in a randomly selected row of the random digits table until I find a 7",
+        "The number of 7s in a row of 40 random digits"
       ]
     },
     {
       "id": "Q10",
       "question": "Question10",
       "isImage": false,
-      "answer": "blah",
-      "solution": "dadffdddd",
+      "answer": "X = average amount of homework student does per night; Y = student’s height",
+      "solution": " In statistics, the definition of independence is ‘two events that can occur at the same time, but do not affect each other/the probability of the other event occurring.’ Logically, a student’s height and the amount of homework a student has are two variables that can occur at the same time, but do not affect each other.",
       "score": 1,
       "choices": [
-        "dadffdddd",
-        "badchoice2",
-        "bla2",
-        "badchoice1"
-      ]
-    },
-    {
-      "id": "Q11",
-      "question": "Question11",
-      "isImage": false,
-      "answer": "blah",
-      "solution": "dadffdddd",
-      "score": 1,
-      "choices": [
-        "badchoice2",
-        "bla2",
-        "dadffdddd",
-        "badchoice1"
+        "X = student’s height; Y = student’s weight",
+        "X = student’s PSAT Math score; Y = PSAT Verbal score",
+        "X = average amount of homework student does per night; Y = student’s GPA",
+        "X = average amount of homework student does per night; Y = student’s height"        
       ]
     }
   ],
@@ -387,7 +373,7 @@
       "question": "Young's modulus is the property of?",
       "isImage": false,
       "answer": "Solid only",
-      "solution": "I didn't make this question, ask the next guy ",
+      "solution": "young's modulus is only applicable to solids because of the deformation, ductility, stretching and resistance of the object. ",
       "score": 1,
       "choices": [
         "Gas only",
