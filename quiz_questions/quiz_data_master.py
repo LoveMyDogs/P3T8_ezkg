@@ -6,7 +6,6 @@ SUBJ_Phys = "Physics"
 SUBJ_Calc = "APCalc"
 class QuizDataMaster:
     quiz_data = []
-    current_quiz = []
     student_data = { "name" : 'na', "totalScore" : 0 }
     subject = ''
     # Initialize questions
@@ -29,31 +28,40 @@ class QuizDataMaster:
 
     #Here it's getting a random question, not sure if it works tho 
     def get_random_questions(self, subject, totalQsInQuiz:int):
-        return(random.sample(self.quiz_data[subject], totalQsInQuiz))
+        self.subject = subject
+        quiz = random.sample(self.quiz_data[subject], totalQsInQuiz)
+        print('Create quiz with questions:')
+        print(quiz)
+        print('---------------------------------------------------------------------------------\n\n')  
+        return quiz
 
     def check_answer(self, questId, answer):
         QnA = {}
         result = {
             'correctAnswer': '', 
+            'yourAnswer': '', 
             'scoreForThisAnswer': 0,
             'totalScore': 0, 
             'solution': ''
         }
-        # Todo: question->id 
-        for q in self.current_quiz:
+              
+        for q in self.quiz_data[self.subject]:           
             if questId == q['id']:
                 QnA = q
                 break
-        
-        if (QnA == {}):
-            return 'Cannot find question'
 
+        print('\n\n---------------------------------------------------------------------------------')  
+        print('Found question', QnA)
+
+        if (len(QnA) == 0):
+            return f'Cannot find question {questId} in quiz'
+
+        result['yourAnswer'] =  answer
         result['correctAnswer'] =  QnA['answer']
         result['solution'] =  QnA['solution']
         if (answer == QnA['answer']):
             self.student_data['totalScore'] =  self.student_data['totalScore'] + QnA['score']
-            result['scoreForThisAnswer'] = QnA['score']
-            print('Good answer for : ', QnA['question'], QnA['score'])
+            result['scoreForThisAnswer'] = QnA['score']          
         else:
             # no score since answer is incorrect. 
             # UI can check for this value and display incorrect message
@@ -61,6 +69,9 @@ class QuizDataMaster:
             result['scoreForThisAnswer'] = 0
 
         result['totalScore'] = self.student_data['totalScore']
+
+        print('Answer result:', result)
+        print('---------------------------------------------------------------------------------\n\n')  
         return result
         
 quiz_data_master  = QuizDataMaster()
