@@ -144,10 +144,10 @@
   "APCalc": [
     {
       "id": "Q1",
-      "question": "cal1",
-      "isImage": true,
+      "question": "follow the link: https://i.imgur.com/XAYNPUF.png",
+      "isImage": false,
       "answer": "-2/(√x)",
-      "solution": "NA",
+      "solution": "Here you go: https://imgur.com/kp8auBC",
       "score": 1,
       "choices": [
         "-2/(√x)",
@@ -158,10 +158,10 @@
     },
     {
       "id": "Q2",
-      "question": "bla2",
-      "isImage": true,
+      "question": "follow the link: https://i.imgur.com/ARhAeCo.png",
+      "isImage": false,
       "answer": "335/3",
-      "solution": "dadffdddd",
+      "solution": "here you go: https://imgur.com/smkjPWA",
       "score": 1,
       "choices": [
         "335/6",
@@ -172,10 +172,10 @@
     },
     {
       "id": "Q3",
-      "question": "cal1",
-      "isImage": true,
+      "question": "follow the link https://i.imgur.com/qLzf9ED.png",
+      "isImage": false,
       "answer": "3(x^2)*cos(x^3)*log(x^2)+sin(x^3)*2/(x*ln(10))",
-      "solution": "NA",
+      "solution": "Here you go: https://imgur.com/QnOrXGw",
       "score": 1,
       "choices": [
         "cos(x^3)* 1/(ln(10)*x^2)",
@@ -186,10 +186,10 @@
     },
     {
       "id": "Q4",
-      "question": "bla3",
-      "isImage": true,
+      "question": "There is a sphere that is growing at a rate of 4 m^3/s, please find the rate at which the radius is changing.  area of a sphere= 4πr^2",
+      "isImage": false,
       "answer": "1/(2πr)",
-      "solution": "dadffdddd",
+      "solution": "Here you go: https://i.imgur.com/0tcvROo.png",
       "score": 1,
       "choices": [
         "1/(2π)",
@@ -200,10 +200,10 @@
     },
     {
       "id": "Q5",
-      "question": "cal1",
+      "question": "follow the link https://i.imgur.com/ciEdRZg.png",
       "isImage": false,
       "answer": "8/3",
-      "solution": "NA",
+      "solution": "Here you go: https://i.imgur.com/qCDdNNt.png",
       "score": 1,
       "choices": [
         "8/3",
@@ -214,10 +214,10 @@
     },
     {
       "id": "Q6",
-      "question": "cal1",
-      "isImage": true,
+      "question": "follow the link :https://imgur.com/f612a669-7714-46bd-928a-59f414bb7fc0",
+      "isImage": false,
       "answer": "6",
-      "solution": "NA",
+      "solution": "here you go: https://i.imgur.com/Grhnfso.png",
       "score": 1,
       "choices": [
         "6",
@@ -228,10 +228,10 @@
     },
     {
       "id": "Q7",
-      "question": "cal1",
-      "isImage": true,
+      "question": "follow the link: https://i.imgur.com/CuEHI7e.png",
+      "isImage": false,
       "answer": "982",
-      "solution": "NA",
+      "solution": "5*8 + 1*42 + 100*9, midpoints",
       "score": 1,
       "choices": [
         "982",
@@ -245,7 +245,7 @@
       "question": "How do you find a local maximum with the first derivative?",
       "isImage": false,
       "answer": "Look for when the derivative goes from positive to negative",
-      "solution": "NA",
+      "solution": "Local maxima are found when the first derivative is equal to zero, and it changes signs",
       "score": 1,
       "choices": [
         "Look for when the derivative goes from positive to negative",
@@ -259,7 +259,7 @@
       "question": "If you were given a function f(x), and were told to find the rate of the rate of it, what would you do to it?",
       "isImage": false,
       "answer": "Find the second derivative of f(x)",
-      "solution": "NA",
+      "solution": "You know, derivatives, are rates",
       "score": 1,
       "choices": [
         "Rate it twice on yelp, subsequently",
