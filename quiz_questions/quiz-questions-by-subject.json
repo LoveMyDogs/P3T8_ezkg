@@ -8,10 +8,10 @@
       "solution": " The z-score will always be equal to the observed value (x) minus the mean (μ) over the standard deviation (σ). This is because the z-score is a score that represents where a datapoint rests on a normal distribution curve. ",
       "score": 1,
       "choices": [
-        "badchoice2",
-        "dadffd",
-        "blah",
-        "badchoice1"
+        "z= (x-µ)/σ",
+        "z=(π-x)/σ",
+        "z= σ/(π-x)",
+        "z= σ/(x-π)"
       ]
     },
     {
