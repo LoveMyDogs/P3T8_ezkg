@@ -2,7 +2,7 @@
   "APStats": [
     {
       "id": "Q1",
-      "question": "Question1",
+      "question": "What is the equation for a z-score?",
       "isImage": false,
       "answer": "blah",
       "solution": " The z-score will always be equal to the observed value (x) minus the mean (μ) over the standard deviation (σ). This is because the z-score is a score that represents where a datapoint rests on a normal distribution curve. ",
@@ -31,7 +31,7 @@
     },
     {
       "id": "Q3",
-      "question": "Question3",
+      "question": "Bias in sampling method is",
       "isImage": false,
       "answer": "Any difference between the sample results and the truth about the population that tends to occur in the same direction whenever using this sampling method",
       "solution": "During sampling, bias is created when results are skewed unevenly towards a specific population.",
@@ -44,7 +44,7 @@
     },
     {
       "id": "Q4",
-      "question": "Question4",
+      "question": "The head of the admissions office at a small college wants to understand why minority students who visit her school do not eventually enroll. The college holds a preview weekend for students who have been admitted. Two months later, after the students have decided which college to attend, a survey is sent out to all minority students who attended the weekend visit but who did not choose to attend this college. About a third of them returned the survey, with 48% of those indicating that they received a larger scholarship offer elsewhere. Which is true?",
       "isImage": false,
       "answer": "II only",
       "solution": "As there was only around a third of the participants who responded to the survey, there is a large amount of the population that is unaccounted for. This is known non-response bias, which can skew the results of a survey because the opinions of the rest of the population is not known.",
@@ -58,7 +58,7 @@
     },
     {
       "id": "Q5",
-      "question": "Question5",
+      "question": "20 men and 20 women with migraine headaches were subjects in an experiment to determine the effectiveness of a new pain medication. 10 of the 20 men and 10 of the 20 women were chosen at random to receive the new drug. The remaining 10 men and 10 women received a placebo. The decrease in pain was measured for each subject. The design of this experiment is…?",
       "isImage": false,
       "answer": "Randomized block, blocked by gender",
       "solution": "The subjects (men and women) are organized into different groups within their groups, which makes them blocked by gender. The participants are randomized, which makes it a randomized block. ",
@@ -72,7 +72,7 @@
     },
     {
       "id": "Q6",
-      "question": "Question6",
+      "question": "The average yearly snowfall in Mars is normally distributed with a mean of 55 inches. If the snowfall in Mars exceeds 60 inches in 15% of the years, what is the standard  deviation?",
       "isImage": false,
       "answer": "4.83 inches",
       "solution": "dadffdddd",
@@ -86,7 +86,7 @@
     },
     {
       "id": "Q7",
-      "question": "Question7",
+      "question": "For events A and B related to the same chance process, which of the following statements is true? ",
       "isImage": false,
       "answer": "If A and B are independent, then they cannot be mutually exclusive ",
       "solution": " Independent events are events that can occur at the same time, but do not affect the outcome of each other. In comparison, mutually exclusive events are events that cannot occur simultaneously. Because of this, an event cannot be independent and mutually exclusive at the same time.",
@@ -100,7 +100,7 @@
     },
     {
       "id": "Q8",
-      "question": "Question8",
+      "question": "17 people have been exposed to a particular disease. Each one independently has a 40% chance of contracting the disease. A hospital has the capacity to handle 10 cases of the disease. What is the probability that the hospital’s capacity will be exceeded?",
       "isImage": false,
       "answer": "0.035",
       "solution": "dadffdddd",
@@ -114,7 +114,7 @@
     },
     {
       "id": "Q9",
-      "question": "Question9",
+      "question": "Which of the following random variables is geometric?",
       "isImage": false,
       "answer": "The number of digits I read in a randomly selected row of the random digits table until I find a 7",
       "solution": " For a geometric variable, an instance is repeated until it occurs. In this instance, the action (reading numbers) is repeated until the goal is reached (finding a 7) which makes it geometric.",
@@ -128,7 +128,7 @@
     },
     {
       "id": "Q10",
-      "question": "Question10",
+      "question": "Suppose a student is randomly selected from your school. Which of the following pairs of random variables are most likely to be independent?",
       "isImage": false,
       "answer": "X = average amount of homework student does per night; Y = student’s height",
       "solution": " In statistics, the definition of independence is ‘two events that can occur at the same time, but do not affect each other/the probability of the other event occurring.’ Logically, a student’s height and the amount of homework a student has are two variables that can occur at the same time, but do not affect each other.",
