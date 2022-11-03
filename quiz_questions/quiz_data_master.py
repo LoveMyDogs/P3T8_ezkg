@@ -6,7 +6,16 @@ SUBJ_Phys = "Physics"
 SUBJ_Calc = "APCalc"
 class QuizDataMaster:
     quiz_data = []
-    student_data = { "name" : 'na', "totalScore" : 0 }
+    student_data = {
+            'correctAnswer': '', 
+            'yourAnswer': '', 
+            'scoreForThisAnswer': 0,
+            'totalScore': 0, 
+            'solution': '',
+            'totalCorrectAnswers':0,
+            'totalWrongAnswers':0,
+            'percentage':0
+    }
     subject = ''
     # Initialize questions
     def init(self):
@@ -37,13 +46,6 @@ class QuizDataMaster:
 
     def check_answer(self, questId, answer):
         QnA = {}
-        result = {
-            'correctAnswer': '', 
-            'yourAnswer': '', 
-            'scoreForThisAnswer': 0,
-            'totalScore': 0, 
-            'solution': ''
-        }
               
         for q in self.quiz_data[self.subject]:           
             if questId == q['id']:
@@ -51,27 +53,37 @@ class QuizDataMaster:
                 break
 
         print('\n\n---------------------------------------------------------------------------------')  
-        print('Found question', QnA)
+        print('Found question:', QnA)
 
         if (len(QnA) == 0):
             return f'Cannot find question {questId} in quiz'
 
-        result['yourAnswer'] =  answer
-        result['correctAnswer'] =  QnA['answer']
-        result['solution'] =  QnA['solution']
+        self.student_data['yourAnswer'] =  answer
+        self.student_data['correctAnswer'] =  QnA['answer']
+        self.student_data['solution'] =  QnA['solution']
         if (answer == QnA['answer']):
             self.student_data['totalScore'] =  self.student_data['totalScore'] + QnA['score']
-            result['scoreForThisAnswer'] = QnA['score']          
+            self.student_data['scoreForThisAnswer'] = QnA['score']          
+            self.student_data['totalCorrectAnswers'] =  self.student_data['totalCorrectAnswers']  + 1
         else:
             # no score since answer is incorrect. 
             # UI can check for this value and display incorrect message
             # and with correct answer
-            result['scoreForThisAnswer'] = 0
+            self.student_data['scoreForThisAnswer'] = 0
+            self.student_data['totalWrongAnswers'] =  self.student_data['totalWrongAnswers'] 
 
-        result['totalScore'] = self.student_data['totalScore']
+        self.student_data['totalScore'] = self.student_data['totalScore']
 
-        print('Answer result:', result)
+        print('Answer result:', self.student_data)
         print('---------------------------------------------------------------------------------\n\n')  
-        return result
+        return self.student_data
+
+    def get_student_data(self):
+        return {
+            "totalScores":  self.student_data['totalScore'] ,
+            "totalCorrectAnswers":  self.student_data['totalCorrectAnswers'] ,
+            "totalWrongAnswers":  self.student_data['totalWrongAnswers'] ,
+            "percentage":  self.student_data['percentage'] 
+            }
         
 quiz_data_master  = QuizDataMaster()

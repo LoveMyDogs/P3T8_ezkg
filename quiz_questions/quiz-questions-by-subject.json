@@ -192,94 +192,94 @@
       "solution": "dadffdddd",
       "score": 1,
       "choices": [
-        "good",
-        "bla2",
-        "badchoice1",
-        "dadffdddd"
+        "1/(2π)",
+        "1/(2πr)",
+        "2π",
+        "2πr"
       ]
     },
     {
       "id": "Q5",
       "question": "cal1",
       "isImage": false,
-      "answer": 2,
+      "answer": "8/3",
       "solution": "NA",
       "score": 1,
       "choices": [
-        "badchoice2",
-        "NA",
-        "bla",
-        "good"
+        "8/3",
+        "4/3",
+        "1",
+        "16/3"
       ]
     },
     {
       "id": "Q6",
       "question": "cal1",
       "isImage": true,
-      "answer": 2,
+      "answer": "6",
       "solution": "NA",
       "score": 1,
       "choices": [
-        "badchoice2",
-        "bla",
-        "good",
-        "NA"
+        "6",
+        "3",
+        "9",
+        "2"
       ]
     },
     {
       "id": "Q7",
       "question": "cal1",
       "isImage": true,
-      "answer": 2,
+      "answer": "982",
       "solution": "NA",
       "score": 1,
       "choices": [
-        "badchoice2",
-        "NA",
-        "bla",
-        "good"
+        "982",
+        "106",
+        "402",
+        "294"
       ]
     },
     {
       "id": "Q8",
-      "question": "cal1",
-      "isImage": true,
-      "answer": 2,
+      "question": "How do you find a local maximum with the first derivative?",
+      "isImage": false,
+      "answer": "Look for when the derivative goes from positive to negative",
       "solution": "NA",
       "score": 1,
       "choices": [
-        "badchoice2",
-        "bla",
-        "good",
-        "NA"
+        "Look for when the derivative goes from positive to negative",
+        "Looking for when the derivative goes from decreasing to increasing",
+        "Look for a when the derivative goes from increasing to decreasing",
+        "Look for when the derivative is goes from negative to positive"
       ]
     },
     {
       "id": "Q9",
-      "question": "cal1",
-      "isImage": true,
-      "answer": 2,
+      "question": "If you were given a function f(x), and were told to find the rate of the rate of it, what would you do to it?",
+      "isImage": false,
+      "answer": "Find the second derivative of f(x)",
       "solution": "NA",
       "score": 1,
       "choices": [
-        "NA",
-        "badchoice2",
-        "bla",
-        "good"
+        "Rate it twice on yelp, subsequently",
+        "Find the second derivative of f(x)",
+        "Give it to high schoolers to judge, and then have other high schoolers judge those high schooler, like judgey high schoolers",
+        "Find the first derivative of f(x)"
       ]
     },
     {
       "id": "Q10",
-      "question": "cal1",
-      "isImage": true,
-      "answer": 2,
-      "solution": "NA",
+      "question": " You have a colony of little alien bugs, starting out with ten, they triple each day, which of the following equations explains how much the population changes?",
+      "isImage": false,
+      "answer": "dy/dx= 10*x^3",
+      "solution": "quick maffs",
       "score": 1,
       "choices": [
-        "badchoice2",
-        "bla",
-        "NA",
-        "good"
+        "dy/dx= 10*3",
+        "dy/dx= 10^(x^3)",
+        "dy/dx= 10*x^3",
+        "dy/dx= 10*3x"
       ]
     }
   ],

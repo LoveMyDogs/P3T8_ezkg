@@ -22,10 +22,15 @@ class QuizAPI:
     class _CheckAnswer(Resource):
         def post(self):
             return quiz_data_master.check_answer(request.json['question'], request.json['answer'])
+    
+    class _ReadFinishQuizSummary(Resource):
+        def get(self):
+            return quiz_data_master.get_student_data()
             
     # building RESTapi resources/interfaces, these routes are added to Web Server
     quiz_api.add_resource(_Get, '/<string:subject>/<int:totalQsInQuiz>')
     quiz_api.add_resource(_Read, '/')
     quiz_api.add_resource(_CheckAnswer, '/checkanswer')
+    quiz_api.add_resource(_ReadFinishQuizSummary, '/summary')
     
       
