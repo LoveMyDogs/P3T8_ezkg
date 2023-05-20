@@ -5,7 +5,7 @@ from __init__ import app  # Definitions initialization
 from api.customer_satisfaction import cust_app_api
 from api.quiz_bp import quiz_app_api
 from bp_projects.projects import app_projects # Blueprint directory import projects definition
-
+from model.questions import *
 app.register_blueprint(cust_app_api) # register customer api routes
 app.register_blueprint(quiz_app_api)
 app.register_blueprint(app_projects) # register api routes
@@ -46,6 +46,10 @@ def power_rule():
 @app.route('/significant_figures/')  # connects /significant_figures/ URL to stub() function
 def significant_figures():
     return render_template("significant_figures.html")
+
+@app.before_first_request
+def activate_job():
+    initQuestions()
 
 # this runs the application on the development server
 if __name__ == "__main__":
