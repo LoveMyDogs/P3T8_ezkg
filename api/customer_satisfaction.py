@@ -61,8 +61,9 @@ class CustomerAPI:
     cust_api.add_resource(_UpdateNo, '/no/<int:id>')
     
 if __name__ == "__main__": 
+    server = "http://localhost:5000/api"
     # server = "http://127.0.0.1:5000" # run local
-    server = 'https://www.teamcheeseatimetime.tk/' # run from web
+    # server = 'https://www.teamcheeseatimetime.tk/' # run from web
     url = server + "/api/customer"
     responses = []  # responses list
 
