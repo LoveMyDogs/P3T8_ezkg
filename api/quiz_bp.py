@@ -2,6 +2,9 @@ from flask import Blueprint, jsonify  # jsonify creates an endpoint response obj
 from flask_restful import Api, Resource , reqparse # used for REST API building
 from flask import request
 from quiz_questions.quiz_data_master import *
+
+from customer_questions import *
+
 import threading  # import threading
 from model.questions import *
 quiz_app_api = Blueprint('quiz_api_bp', __name__,
@@ -84,7 +87,21 @@ class QuizAPI:
             q.update("", "", isPinned)            
             return Question.getAll()
     
+    class _CustomerRead(Resource):
+        def get(self):
+            return jsonify(getQuestions())
+       # put method: addQuestionYes
+    class _UpdateLike(Resource):
+        def put(self, id):
+            addQuestionYes(id)
+            return jsonify(getQuestion(id))
 
+    # put method: addQuestionNo
+    class _UpdateNo(Resource):
+        def put(self, id):
+            addQuestionNo(id)
+            return jsonify(getQuestion(id))
+         
     # building RESTapi resources/interfaces, these routes are added to Web Server
     quiz_api.add_resource(_Get, '/<string:subject>/<int:totalQsInQuiz>')
     quiz_api.add_resource(_Read, '/')
@@ -96,3 +113,7 @@ class QuizAPI:
     
     quiz_api.add_resource(_GetAllQuestions, '/questions')
     quiz_api.add_resource(_SetPinned, '/questions/pin/<int:id>/<int:isPinned>')
+
+    quiz_api.add_resource(_CustomerRead, '/customers')
+    quiz_api.add_resource(_UpdateLike, '/customers/like/<int:id>')
+    quiz_api.add_resource(_UpdateNo, '/customers/no/<int:id>')
